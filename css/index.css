@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Chapillada;
+    src: url("../fonts/Chapillada.otf") format("opentype");
+}
+
+
+body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#title{
+  position: relative;
+  display: block;
+  background: url("../images/background.png");
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2.5rem;
+}
+
+.container-navigation{
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 3rem 0 0 0;
+  z-index: 1;
+}
+
+.container-navigation a{
+  font-family: Chapillada;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.container-navigation a:hover{
+  color: rgba(54,179,165,1);
+}
+
+a.home-menu{
+  color: rgba(54,179,165,1);
+}
+
+.container-title-img{
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+
+.container-title-img .title-img{
+  width: 100%;
+  height: auto;
+}
+
+.container-tictac-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  top: 17%;
+  display: block;
+}
+
+.container-tictac-img .tictac-img{
+  margin-right: 3.5%;
+  width: 13%;
+  height: auto;
+}
+
+.container-wheel-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  top: 38.8%;
+  display: block;
+}
+
+.container-wheel-img .wheel-img{
+  margin-right: 51%;
+  width: 11%;
+  height: auto;
+}
+
+.container-bulb-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  top: 32.5%;
+  display: block;
+}
+
+.container-bulb-img .bulb-img{
+  margin-left: 48%;
+  width: 11%;
+  height: auto;
+}
+
+.container-pencil-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  top: 68%;
+  display: block;
+}
+
+.container-pencil-img .pencil-img{
+  margin-left: 32%;
+  width: 11%;
+  height: auto;
+}
+
+.container-logo-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  top: 43%;
+  display: block;
+}
+
+.container-logo-img .logo-img{
+  /* margin-left: 32%; */
+  width: 23%;
+  height: auto;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: rgba(54,179,165,1);
+  bottom: 0;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer i{
+  font-size: 2rem;
+  padding: 0 0.3rem;
+}
+
+@media all and (max-width: 850px) {
+  html{
+    height: 100%;
+  }
+
+  .container-navigation a{
+    font-size: 0.8rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+}
