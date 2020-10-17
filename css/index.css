@@ -50,7 +50,6 @@ a.home-menu{
   width: 100%;
   height: auto;
   text-align: center;
-
 }
 
 .container-title-img .title-img{
@@ -73,6 +72,20 @@ a.home-menu{
   height: auto;
 }
 
+.container-strategy-text{
+  position: absolute;
+  top: 36%;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.container-strategy-text p{
+  font-family: Chapillada;
+  font-size: 2vw;
+  margin-right: 3%;
+}
+
 .container-wheel-img{
   position: absolute;
   width: 100%;
@@ -86,6 +99,20 @@ a.home-menu{
   margin-right: 51%;
   width: 11%;
   height: auto;
+}
+
+.container-system-text{
+  position: absolute;
+  top: 56.5%;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.container-system-text p{
+  font-family: Chapillada;
+  font-size: 2vw;
+  margin-right: 49%;
 }
 
 .container-bulb-img{
@@ -103,6 +130,20 @@ a.home-menu{
   height: auto;
 }
 
+.container-innovations-text{
+  position: absolute;
+  top: 51%;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.container-innovations-text p{
+  font-family: Chapillada;
+  font-size: 2vw;
+  margin-left: 54.2%;
+}
+
 .container-pencil-img{
   position: absolute;
   width: 100%;
@@ -116,6 +157,20 @@ a.home-menu{
   margin-left: 32%;
   width: 11%;
   height: auto;
+}
+
+.container-design-text{
+  position: absolute;
+  top: 83.4%;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.container-design-text p{
+  font-family: Chapillada;
+  font-size: 2vw;
+  margin-left: 32.7%;
 }
 
 .container-logo-img{

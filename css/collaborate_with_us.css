@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Chapillada;
+    src: url("../fonts/Chapillada.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url("../fonts/Gotham-Light.otf") format("opentype");
+}
+
+
+body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#title{
+  position: relative;
+  display: block;
+  background: url("../images/background.png");
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2.5rem;
+}
+
+.container-navigation{
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 3rem 0 0 0;
+  z-index: 1;
+}
+
+.container-navigation a{
+  font-family: Chapillada;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.container-navigation a:hover{
+  color: rgba(54,179,165,1);
+}
+
+a.collaborate-with-us-menu{
+  color: rgba(54,179,165,1);
+}
+
+.container-collab-img{
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container-collab-img .collab-img{
+  width: 100%;
+  height: auto;
+}
+
+.container-connect-text{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  top: 45%;
+}
+
+.container-connect-text p{
+  font-family: Gotham;
+  margin-right: 26%;
+  font-size: 1.1vw;
+}
+
+.container-fb-connect-text{
+  position: absolute;
+  width: 17.7%;
+  height: auto;
+  text-align: center;
+  top: 54%;
+  left: 27%;
+  border-radius: 30px;
+  padding: 0.5% 1.5%;
+  background-color: rgba(54,179,165,1);
+}
+
+.container-fb-connect-text:hover{
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  cursor: pointer;
+}
+
+.container-fb-connect-text:hover a{
+  color: white;
+}
+
+.container-fb-connect-text a{
+  text-decoration: none;
+  color: black;
+  font-family: Gotham;
+  font-size: 1.2vw;
+  display: block;
+  float: left;
+  margin-top: 2.75%;
+}
+
+.container-fb-connect-text i{
+  font-size: 2.5vw;
+  display: block;
+  float: right;
+}
+
+.container-google-connect-text{
+  position: absolute;
+  width: 18.5%;
+  height: auto;
+  text-align: center;
+  top: 54%;
+  right: 27%;
+  border-radius: 30px;
+  padding: 0.5% 1.5%;
+  background-color: rgba(54,179,165,1);
+}
+
+.container-google-connect-text:hover{
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  cursor: pointer;
+}
+
+.container-google-connect-text:hover a{
+  color: white;
+}
+
+.container-google-connect-text a{
+  text-decoration: none;
+  color: black;
+  font-family: Gotham;
+  font-size: 1.2vw;
+  display: block;
+  float: left;
+  margin-top: 2.75%;
+}
+
+.container-google-connect-text i{
+  font-size: 2.5vw;
+  display: block;
+  float: right;
+}
+
+.container-mail-connect-text{
+  position: absolute;
+  width: 13.7%;
+  height: auto;
+  text-align: center;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+  padding: 0.5% 4%;
+  background-color: rgba(54,179,165,1);
+}
+
+.container-mail-connect-text:hover{
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  cursor: pointer;
+}
+
+.container-mail-connect-text:hover a{
+  color: white;
+}
+
+
+.container-mail-connect-text a{
+
+  text-decoration: none;
+  color: black;
+  font-family: Gotham;
+  font-size: 1.2vw;
+  display: block;
+  float: left;
+  margin-top: 2.75%;
+  /* border:1px solid red; */
+}
+
+.container-mail-connect-text i{
+  position: relative;
+  font-size: 2.5vw;
+  display: block;
+  float: right;
+  /* border:1px solid blue; */
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: rgba(54,179,165,1);
+  bottom: 0;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer i{
+  font-size: 2rem;
+  padding: 0 0.3rem;
+}
+
+@media all and (max-width: 850px) {
+  html{
+    height: 100%;
+  }
+
+  .container-navigation a{
+    font-size: 0.8rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+}
