@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>SYSiD | Collaborate With Us</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/collaborate_with_us.css">
+<head>
+  <meta charset="utf-8">
+  <title>SYSiD | Collaborate With Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  </head>
-  <body>
+  <link rel="stylesheet" href="css/collaborate_with_us.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
 
-    <section id="title">
-      <div class="container-navigation">
-        <a href="index.html">HOME</a> <span>|</span>
-        <a href="about.html">ABOUT</a>  <span>|</span>
-        <a href="offered_solutions.html">OFFERED SOLUTIONS</a> <span>|</span>
-        <a href="#" class="collaborate-with-us-menu">COLLABORATE WITH US</a>
+<body>
+
+  <section id="title">
+    <div class="container-navigation">
+      <a href="index.html">HOME</a> <span>|</span>
+      <a href="about.html">ABOUT</a> <span>|</span>
+      <a href="offered_solutions.html">OFFERED SOLUTIONS</a> <span>|</span>
+      <a href="#" class="collaborate-with-us-menu">COLLABORATE WITH US</a>
+    </div>
+    <div class="container-collab-img">
+      <img src="images/collab_image.png" class="collab-img">
+      <div class="container-connect-text">
+        <p>connect@sysidph.com</p>
       </div>
-      <div class="container-collab-img">
-        <img src="images/collab_image.png" class="collab-img">
-        <div class="container-connect-text">
-          <p>connect@sysidph.com</p>
-        </div>
-        <div class="container-fb-connect-text">
-          <a href="#">Connect With Us Through</a>
-          <i class="fab fa-facebook-f"></i>
-        </div>
-        <div class="container-google-connect-text">
-          <a href="#">Connect With Us Through</a>
-          <i class="fab fa-google"></i>
-        </div>
-        <div class="container-mail-connect-text">
-          <a href="#">Email Us Through</a>
-          <i class="far fa-envelope"></i>
-        </div>
+      <div class="container-fb-connect-text">
+        <a href="#">Connect With Us Through</a>
+        <i class="fab fa-facebook-f"></i>
       </div>
-    </section>
+      <div class="container-google-connect-text">
+        <a href="#">Connect With Us Through</a>
+        <i class="fab fa-google"></i>
+      </div>
+      <div class="container-mail-connect-text">
+        <a id="email-modal-btn">Email Us Through</a>
+        <i class="far fa-envelope"></i>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-      <a href="https://www.facebook.com/sysid.ph/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.instagram.com/sysid.ph/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-      <a href="https://www.linkedin.com/company/sysid/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <i class="fas fa-envelope"></i>
-      <i class="fab fa-facebook-messenger"></i>
-      <i class="fas fa-phone-square-alt"></i>
-    </footer>
-  </body>
+  <footer>
+    <a href="https://www.facebook.com/sysid.ph/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/sysid.ph/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+    <a href="https://www.linkedin.com/company/sysid/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <i class="fas fa-envelope"></i>
+    <i class="fab fa-facebook-messenger"></i>
+    <i class="fas fa-phone-square-alt"></i>
+  </footer>
+
+  <div id="email-modal" class="email-modal">
+    <!-- Modal content -->
+    <div class="email-modal-content">
+      <span class="close-email-modal">&times;</span>
+      <form action="php/send_email.php" method="get" enctype="text/plain" class="email-form">
+        Name:
+        <input type="text" name="name" class="email-input" required>
+        <!-- E-mail:
+        <input type="text" name="mail" class="email-input" required><br> -->
+        <br>
+        Message:<br>
+        <textarea type="text" name="message" class="email-content" rows="10" required>
+        </textarea><br><br>
+        <input type="submit" value="Send" class="email-button">
+        <input type="reset" value="Reset" class="email-button">
+      </form>
+    </div>
+
+  </div>
+
+  <script src="js/collaborate_with_us.js" charset="utf-8"></script>
+</body>
+
 </html>
