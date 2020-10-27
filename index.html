@@ -1,78 +1,249 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>SYSiD | Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>SYSiD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <section id="title">
-      <div class="container-navigation">
-        <a href="#" class="home-menu">HOME</a> <span>|</span>
-        <a href="about.html">ABOUT</a>  <span>|</span>
-        <a href="offered_solutions.html">OFFERED SOLUTIONS</a> <span>|</span>
-        <a href="collaborate_with_us.html">COLLABORATE WITH US</a>
+  <link rel="stylesheet" href="css/index.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-navigation" id="navigation-menu">
+      <a href="javascript:void(0);" class="icon" onclick="navigationIcon()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#" class="title-menu">HOME</a> <span>|</span>
+      <a href="#about" class="about-menu">ABOUT</a> <span>|</span>
+      <a href="#solutions" class="solutions-menu">OFFERED SOLUTIONS</a> <span>|</span>
+      <a href="#collaborate" class="collaborate-menu">COLLABORATE WITH US</a>
+    </div>
+    <div class="container-title-img">
+      <img src="images/home_image.png" class="title-img">
+      <div class="container-tictac-img">
+        <img src="images/tictac.png" class="tictac-img">
       </div>
-      <div class="container-title-img">
-        <img src="images/home_image.png" class="title-img">
-        <!-- <div class="container-grayarrow1-img">
-          <div class="grayarrow1-cover"></div>
-          <img src="images/grayarrow1.png" class="grayarrow1-img">
-        </div>
-        <div class="container-grayarrow2-img">
-          <div class="grayarrow2-cover"></div>
-          <img src="images/grayarrow2.png" class="grayarrow2-img">
-        </div>
-        <div class="container-grayarrow3-img">
-          <div class="grayarrow3-cover"></div>
-          <img src="images/grayarrow3.png" class="grayarrow3-img">
-        </div> -->
-        <div class="container-tictac-img">
-          <img src="images/tictac.png" class="tictac-img">
-        </div>
-        <div class="container-strategy-text">
-          <p>Strategy</p>
-        </div>
-        <div class="container-wheel-img">
-          <img src="images/wheel.png" class="wheel-img">
-        </div>
-        <div class="container-system-text">
-          <p>System</p>
-        </div>
-        <div class="container-bulb-img">
-          <img src="images/bulb.png" class="bulb-img">
-        </div>
-        <div class="container-innovations-text">
-          <p>innovations</p>
-        </div>
-        <div class="container-pencil-img">
-          <img src="images/pencil.png" class="pencil-img">
-        </div>
-        <div class="container-logo-img">
-          <img src="images/logo.png" class="logo-img">
-        </div>
-        <div class="container-design-text">
-          <p>Design</p>
-        </div>
+      <div class="container-strategy-text">
+        <p>Strategy</p>
+      </div>
+      <div class="container-wheel-img">
+        <img src="images/wheel.png" class="wheel-img">
+      </div>
+      <div class="container-system-text">
+        <p>System</p>
+      </div>
+      <div class="container-bulb-img">
+        <img src="images/bulb.png" class="bulb-img">
+      </div>
+      <div class="container-innovations-text">
+        <p>innovations</p>
+      </div>
+      <div class="container-pencil-img">
+        <img src="images/pencil.png" class="pencil-img">
+      </div>
+      <div class="container-logo-img">
+        <img src="images/logo.png" class="logo-img">
+      </div>
+      <div class="container-design-text">
+        <p>Design</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container-about-img">
+      <img src="images/about_image.png" class="about-img">
+      <div class="container-about-text">
+        <p>SYSID is an on-demand, full service <br>
+          marketing consultancy firm.<br><br>
+          We provide our clients with the <br>
+          strategy and solutions that optimize <br>
+          results and business performance in <br>
+          this digital age.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="solutions">
+    <div class="container-solutions-img">
+      <img src="images/solutions_image.png" class="solutions-img">
+      <div class="container-logo-img">
+        <img src="images/logo.png" class="logo-img">
+      </div>
+      <div class="container-two-wheels-img">
+        <img src="images/two_wheels.png" class="two-wheels-img">
+      </div>
+      <div class="container-arrow1-img">
+        <img src="images/arrow1.png" class="arrow1-img">
+      </div>
+      <div class="container-marketing-text">
+        <p>Marketing<br>
+          Strategy
+        </p>
+      </div>
+      <div class="container-greenbulb-img">
+        <img src="images/greenbulb.png" class="greenbulb-img">
+      </div>
+      <div class="container-arrow2-img">
+        <img src="images/arrow2.png" class="arrow2-img">
+      </div>
+      <div class="container-creative-text">
+        <p>Creative<br>
+          Development<br>
+          & Production
+        </p>
+      </div>
+      <div class="container-content-img">
+        <img src="images/content.png" class="content-img">
+      </div>
+      <div class="container-arrow3-img">
+        <img src="images/arrow3.png" class="arrow3-img">
+      </div>
+      <div class="container-content-text">
+        <p>Content<br>
+          Strategy & Platorm<br>
+          Management
+        </p>
+      </div>
+      <div class="container-marketing-img">
+        <img src="images/marketing.png" class="marketing-img">
+      </div>
+      <div class="container-arrow4-img">
+        <img src="images/arrow4.png" class="arrow4-img">
+      </div>
+      <div class="container-research-text">
+        <p>Market Research,<br>
+          Data & Digital Media
+        </p>
+      </div>
+      <div class="container-web-img">
+        <img src="images/web.png" class="web-img">
+      </div>
+      <div class="container-arrow5-img">
+        <img src="images/arrow5.png" class="arrow5-img">
+      </div>
+      <div class="container-web-text">
+        <p>Web, App &<br>
+          System Development
+        </p>
+      </div>
+      <div class="container-consultancy-img">
+        <img src="images/consultancy.png" class="consultancy-img">
+      </div>
+      <div class="container-arrow6-img">
+        <img src="images/arrow6.png" class="arrow6-img">
+      </div>
+      <div class="container-consultancy-text">
+        <p>Consultancy</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="collaborate">
+    <div class="container-collab-img">
+      <img src="images/collab_image.png" class="collab-img">
+      <!-- <div class="container-connect-text">
+        <p>connect@sysidph.com</p>
+      </div> -->
+      <!-- <div class="container-fb-connect-text">
+        <a href="#">Connect With Us Through</a>
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="container-google-connect-text">
+        <a href="#">Connect With Us Through</a>
+        <i class="fab fa-google"></i>
+      </div> -->
+      <div class="container-mail-connect-text">
+        <i class="far fa-envelope"></i>
+        <a href="mailto:hello@sysid.ph">Email Us</a>
+        <!-- id="email-modal-btn" -->
       </div>
 
-    </section>
+      <div class="container-mobile-email-form">
+        <form action="javascript:sendMessage()" method="POST" class="mobile-email-form">
+          <input id="client-name" type="text" name="name" class="mobile-email-input" placeholder="Name" required><br>
+          <input id="client-email" type="text" name="mail" class="mobile-email-input" placeholder="Email" required><br>
+          <br>
+          <textarea id="client-message" type="text" name="message" class="mobile-email-content" placeholder="Message" rows="10" required></textarea>
+          <br>
+          <input type="submit" value="Send" class="mobile-email-button"><br>
+          <input type="reset" value="Reset" class="mobile-email-button">
+        </form>
+      </div>
 
-    <footer>
-      <a href="https://www.facebook.com/sysid.ph/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.instagram.com/sysid.ph/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+    </div>
+  </section>
 
-      <a href="https://www.linkedin.com/company/sysid/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <footer>
+    <a href="https://www.facebook.com/sysid.ph/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/sysid.ph/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+    <a href="https://www.linkedin.com/company/sysid/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:hello@sysid.ph"><i class="fas fa-envelope"></i></a>
+    <a href="https://m.me/sysid.ph" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
 
-      <i class="fas fa-envelope"></i>
-      <i class="fab fa-facebook-messenger"></i>
-      <i class="fas fa-phone-square-alt"></i>
-    </footer>
-    <script src="js/index.js" charset="utf-8"></script>
-  </body>
+    <!-- <i class="fas fa-phone-square-alt"></i> -->
+    <br><br>
+    <a href="#">HOME</a> <span>|</span>
+    <a href="#about">ABOUT</a> <span>|</span>
+    <a href="#solutions">OFFERED SOLUTIONS</a> <span>|</span>
+    <a href="#collaborate">COLLABORATE WITH US</a> <br>
+    <a href="#">TERMS AND CONDITIONS</a>
+
+    <p class="copyright">Copyright © SYSiD 2020. <br> All Rights Reserved.</p>
+  </footer>
+
+  <div id="email-modal" class="email-modal">
+    <!-- Modal content -->
+    <div class="email-modal-content">
+      <span class="close-email-modal">&times;</span>
+      <form action="javascript:sendMessage()" method="POST" class="email-form">
+        Name:
+        <input id="client-name" type="text" name="name" class="email-input" required>
+        E-mail:
+        <input id="client-email" type="text" name="mail" class="email-input" required><br>
+        <br>
+        Message:<br>
+        <textarea id="client-message" type="text" name="message" class="email-content" rows="10" required>
+        </textarea><br><br>
+        <input type="submit" value="Send" class="email-button">
+        <input type="reset" value="Reset" class="email-button">
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml: true,
+        version: 'v8.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="105441090988022" theme_color="#bebebe">
+  </div>
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+
 </html>
