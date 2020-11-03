@@ -33,8 +33,6 @@ function sendMessage(){
   var clientName = $("#client-name").val();
   var clientEmail = $("#client-email").val();
   var clientMessage = $("#client-message").val();
-
-  alert(clientMessage);
 }
 
 $(document).ready(function(){
@@ -67,3 +65,51 @@ function navigationIcon() {
     x.className = "container-navigation";
   }
 }
+
+$(window).resize(function(){
+  var windowWidth = $(this).width();
+  if (windowWidth<=750){
+    $(".container-title-img .title-img").attr("src","images/mobile_home_image.png");
+    $(".container-tictac-img .tictac-img").attr("src","images/mobile_tictac.png");
+    $(".container-bulb-img .bulb-img").attr("src","images/mobile_bulb.png");
+    $(".container-wheel-img .wheel-img").attr("src","images/mobile_wheel.png");
+    $(".container-pencil-img .pencil-img").attr("src","images/mobile_pencil.png");
+    $(".container-about-img .about-img").attr("src","images/mobile_about_image.png");
+    $(".container-solutions-img .solutions-img").attr("src","images/mobile_solutions_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
+  }
+  else {
+    $(".container-title-img .title-img").attr("src","images/home_image.png");
+    $(".container-tictac-img .tictac-img").attr("src","images/tictac.png");
+    $(".container-bulb-img .bulb-img").attr("src","images/bulb.png");
+    $(".container-wheel-img .wheel-img").attr("src","images/wheel.png");
+    $(".container-pencil-img .pencil-img").attr("src","images/pencil.png");
+    $(".container-about-img .about-img").attr("src","images/about_image.png");
+    $(".container-solutions-img .solutions-img").attr("src","images/solutions_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/collab_image.png");
+  }
+});
+
+$(document).ready(function(){
+  var windowWidth = $(this).width();
+  if (windowWidth<=750){
+    $(".container-title-img .title-img").attr("src","images/mobile_home_image.png");
+    $(".container-tictac-img .tictac-img").attr("src","images/mobile_tictac.png");
+    $(".container-bulb-img .bulb-img").attr("src","images/mobile_bulb.png");
+    $(".container-wheel-img .wheel-img").attr("src","images/mobile_wheel.png");
+    $(".container-pencil-img .pencil-img").attr("src","images/mobile_pencil.png");
+    $(".container-about-img .about-img").attr("src","images/mobile_about_image.png");
+    $(".container-solutions-img .solutions-img").attr("src","images/mobile_solutions_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
+  }
+  else {
+    $(".container-title-img .title-img").attr("src","images/home_image.png");
+    $(".container-tictac-img .tictac-img").attr("src","images/tictac.png");
+    $(".container-bulb-img .bulb-img").attr("src","images/bulb.png");
+    $(".container-wheel-img .wheel-img").attr("src","images/wheel.png");
+    $(".container-pencil-img .pencil-img").attr("src","images/pencil.png");
+    $(".container-about-img .about-img").attr("src","images/about_image.png");
+    $(".container-solutions-img .solutions-img").attr("src","images/solutions_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/collab_image.png");
+  }
+});

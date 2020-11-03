@@ -73,108 +73,6 @@ a.home-menu{
   height: auto;
 }
 
-.container-grayarrow1-img{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  bottom: 30%;
-  display: block;
-  overflow: hidden;
-}
-
-.container-grayarrow1-img .grayarrow1-cover{
-  z-index: 2;
-  position: absolute;
-  width: 4.1%;
-  height: 100%;
-  background: url("../images/background.png");
-  margin-left: 8.4%;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-}
-
-@keyframes grayarrow1 {
-  0% {width: 4%;}
-  100% {width: 0;}
-}
-
-.container-grayarrow1-img .grayarrow1-img{
-  top: 0;
-  margin-right: 78.5%;
-  width: 3.5%;
-  height: 100%;
-}
-
-.container-grayarrow2-img{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 57%;
-  display: block;
-  overflow: hidden;
-}
-
-.container-grayarrow2-img .grayarrow2-cover{
-  z-index: 2;
-  position: absolute;
-  width: 4%;
-  height: 100%;
-  background: url("../images/background.png");
-  margin-left: 12.9%;
-  bottom: 0;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-}
-
-@keyframes grayarrow2 {
-  0% {height: 100%;}
-  100% {height: 0;}
-}
-
-.container-grayarrow2-img .grayarrow2-img{
-  top: 0;
-  margin-right: 70.2%;
-  width: 4%;
-  height: 100%;
-}
-
-.container-grayarrow3-img{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 39%;
-  display: block;
-  overflow: hidden;
-}
-
-.container-grayarrow3-img .grayarrow3-cover{
-  z-index: 2;
-  position: absolute;
-  width: 9.1%;
-  height: 100%;
-  background: url("../images/background.png");
-  right: 57.7%;
-  /* margin-right: 57.7%; */
-  /* border: 1px solid blue; */
-  bottom: 0;
-  /* opacity: 0.5; */
-  border-radius: 100% 0 0 0;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-}
-
-@keyframes grayarrow3 {
-  0% {width: 9.1%;}
-  100% {width: 0;}
-}
-
-.container-grayarrow3-img .grayarrow3-img{
-  top: 0;
-  margin-right: 24.5%;
-  width: 9%;
-  height: 100%;
-}
-
 .container-tictac-img{
   position: absolute;
   width: 100%;
@@ -880,7 +778,7 @@ footer i{
   font-size: 1vw;
 }
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 750px) {
   html{
     height: 100%;
   }
@@ -922,12 +820,210 @@ footer i{
   .container-title-img{
     position: relative;
     width: 100%;
-    height: auto;
-    text-align: center;
+    height: 100%;
+  }
+
+  .container-title-img .title-img{
+    position: relative;
+    width: 94%;
+    height: 90%;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+
+  .container-tictac-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 29.5%;
+    display: block;
+  }
+
+  .container-tictac-img .tictac-img{
+    margin-left: 56%;
+    width: 36%;
+    height: 17vh;
+  }
+
+  .container-strategy-text{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  .container-strategy-text p{
+    font-family: Chapillada;
+    font-size: 3vw;
+    margin-left: 56%;
+  }
+
+  .container-wheel-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 23%;
+    display: block;
+  }
+
+  .container-wheel-img .wheel-img{
+    margin-right: 45%;
+    width: 30%;
+    height: 20vh;
+  }
+
+  .container-system-text{
+    position: absolute;
+    top: 36.5%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  .container-system-text p{
+    font-family: Chapillada;
+    font-size: 3vw;
+    margin-right: 46.5%;
+  }
+
+  .container-bulb-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 56%;
+    display: block;
+  }
+
+  .container-bulb-img .bulb-img{
+    margin-left: 38%;
+    width: 35%;
+    height: 16vh;
+  }
+
+  .container-innovations-text{
+    position: absolute;
+    top: 71%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  .container-innovations-text p{
+    font-family: Chapillada;
+    font-size: 3vw;
+    margin-left: 38%;
+  }
+
+  .container-pencil-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 51.5%;
+    display: block;
+  }
+
+  .container-pencil-img .pencil-img{
+    margin-left: -56.5%;
+    width: 33%;
+    height: 18vh;
+  }
+
+  .container-design-text{
+    position: absolute;
+    top: 68.5%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  .container-design-text p{
+    font-family: Chapillada;
+    font-size: 3vw;
+    margin-left: -56.5%;
+  }
+
+  .container-logo-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 40%;
+    display: block;
+  }
+
+  .container-logo-img .logo-img{
+    /* margin-left: 2%; */
+    width: 36%;
+    height: 20vh;
+  }
+
+  .container-about-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-about-img .about-img{
+    position: relative;
+    width: 94%;
+    height: 90%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .container-about-text{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    top: 17%;
+  }
+
+  .container-about-text p{
+    font-family: Gotham;
+    margin-left: 19%;
+    font-size: 0.55rem;
+  }
+
+  .container-solutions-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-solutions-img .solutions-img{
+    position: relative;
+    width: 94%;
+    height: 80%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  #solutions .container-logo-img,
+  .container-two-wheels-img,
+  .container-arrow1-img,
+  .container-marketing-text,
+  .container-greenbulb-img,
+  .container-arrow2-img,
+  .container-creative-text,
+  .container-content-img,
+  .container-arrow3-img,
+  .container-content-text,
+  .container-marketing-img,
+  .container-arrow4-img,
+  .container-research-text,
+  .container-web-img,
+  .container-arrow5-img,
+  .container-web-text,
+  .container-consultancy-img,
+  .container-arrow6-img,
+  .container-consultancy-text {
+    display: none;
+  }
+
 
   #collaborate{
     position: relative;
@@ -943,17 +1039,15 @@ footer i{
     width: 100%;
     height: auto;
     text-align: center;
+    /* border: 1px solid red; */
   }
 
   .container-collab-img .collab-img{
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 
-  .container-title-img .title-img{
-    width: 100%;
-    height: auto;
-  }
+
 
   .container-mail-connect-text{
     display: none;
@@ -961,7 +1055,7 @@ footer i{
 
   .container-mobile-email-form{
     display: block;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
     font-family: Chapillada;
